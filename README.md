@@ -36,11 +36,30 @@ A modern, futuristic dividend tracking application built with React and Node.js.
 
 ### Installation
 
-1. Clone or download the project
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shresthamausam07/dividend-tracker.git
+   cd dividend-tracker
+   ```
+
 2. Install dependencies:
    ```bash
    npm run install-deps
    ```
+
+### First Time Setup
+
+⚠️ **Important**: After cloning, you need to set up the project properly:
+
+1. **Install all dependencies** (this installs for root, server, and client):
+   ```bash
+   npm run install-deps
+   ```
+
+2. **Create user account**: When you first run the app, you'll need to:
+   - Go to http://localhost:3000
+   - Click "Register" to create your account
+   - The SQLite database will be automatically created on first run
 
 ### Running the Application
 
@@ -51,7 +70,7 @@ A modern, futuristic dividend tracking application built with React and Node.js.
 
 2. Open your browser and navigate to:
    - Frontend: http://localhost:3000
-   - Backend API: http://localhost:5000
+   - Backend API: http://localhost:3001
 
 ### Usage
 
