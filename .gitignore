@@ -94,3 +94,6 @@ ehthumbs.db
 *.swp
 *.swo
 *~
+
+# Claude Code
+.claude/
